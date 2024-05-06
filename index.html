@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div id="logo"></div>
+        <div class="image"></div>
+      </div>
+      <form id="form">
+        <div class="social">
+          <div class="title">Welcome Back!</div>
+          <div class="question">
+            Login to continue <br/>
+          </div>
+        </div>
+        <!-- /**
+          * ! Email Input here
+         **/ -->
+        <div>
+          <label for="email">Email / Mobile Number</label>
+          <i class="fa-regular fa-envelope"></i>
+          <input type="email" name="email" id="email" placeholder="Email / Mobile Number">
+        </div>
+        <!-- /**
+          * ! Password Input here
+         **/ -->
+        <div>
+          <label for="password">Password:</label>
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" name="password" id="password" placeholder="Password">
+                   <div class="error"></div>
+        </div>
+        <button type="submit" id="submit">Login</button>
+        <div id="footer"> 
+          <p style="color: rgb(75, 127, 241); cursor: pointer;">Forgot Password ?</p>
+          <p style="font-size: 14px;">New User? <span style="color: rgb(75, 127, 241); font-size: 18px;" > Sign Up</span></p>
+          
+        </div>
+      </form>
+    </div>
+  </body>
+  
+</html>
